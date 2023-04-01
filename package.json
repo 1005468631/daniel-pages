@@ -4,6 +4,11 @@
   "description": "static web app workflow",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://github.com/1005468631/daniel-pages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1005468631/daniel-pages.git"
+  },
   "dependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
