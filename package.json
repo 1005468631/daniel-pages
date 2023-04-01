@@ -1,6 +1,7 @@
 {
   "name": "daniel-pages",
   "version": "1.0.0",
+  "description": "static web app workflow",
   "main": "index.js",
   "license": "MIT"
 }
