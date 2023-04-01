@@ -2,13 +2,19 @@
   "name": "daniel-pages",
   "version": "1.0.0",
   "description": "static web app workflow",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
   "license": "MIT",
-  "homepage": "https://github.com/1005468631/daniel-pages",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1005468631/daniel-pages.git"
   },
+  "scripts": {},
   "dependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
@@ -25,5 +31,9 @@
     "gulp-swig": "^0.9.1",
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^5.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6"
   }
 }
