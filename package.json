@@ -2,13 +2,15 @@
   "name": "daniel-pages",
   "version": "1.0.0",
   "description": "static web app workflow",
+  "files": [
+    "lib",
+    "bin"
+  ],
   "main": "lib/index.js",
+  "bin": "bin/pages.js",
   "directories": {
     "lib": "lib"
   },
-  "files": [
-    "lib"
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -25,15 +27,14 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
-    "gulp-imagemin": "7.1.0",
+    "gulp-imagemin": "6.1.0",
     "gulp-load-plugins": "^2.0.8",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.0.1",
     "gulp-swig": "^0.9.1",
     "gulp-uglify": "^3.0.2",
-    "gulp-useref": "^5.0.0"
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.60.0"
   },
   "devDependencies": {},
-  "engines": {
-    "node": ">= 6"
-  }
+  "engines": {}
 }
